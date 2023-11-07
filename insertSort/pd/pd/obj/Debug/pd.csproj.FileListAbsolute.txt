@@ -1,0 +1,9 @@
+C:\Users\Irek\Desktop\insertSort\pd\pd\bin\Debug\pd.exe.config
+C:\Users\Irek\Desktop\insertSort\pd\pd\bin\Debug\pd.exe
+C:\Users\Irek\Desktop\insertSort\pd\pd\bin\Debug\pd.pdb
+C:\Users\Irek\Desktop\insertSort\pd\pd\obj\Debug\pd.Form1.resources
+C:\Users\Irek\Desktop\insertSort\pd\pd\obj\Debug\pd.Properties.Resources.resources
+C:\Users\Irek\Desktop\insertSort\pd\pd\obj\Debug\pd.csproj.GenerateResource.cache
+C:\Users\Irek\Desktop\insertSort\pd\pd\obj\Debug\pd.csproj.CoreCompileInputs.cache
+C:\Users\Irek\Desktop\insertSort\pd\pd\obj\Debug\pd.exe
+C:\Users\Irek\Desktop\insertSort\pd\pd\obj\Debug\pd.pdb
