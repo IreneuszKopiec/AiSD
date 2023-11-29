@@ -1,0 +1,10 @@
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\bin\Debug\PD2.exe.config
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\bin\Debug\PD2.exe
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\bin\Debug\PD2.pdb
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\obj\Debug\PD2.csproj.AssemblyReference.cache
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\obj\Debug\PD2.Form1.resources
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\obj\Debug\PD2.Properties.Resources.resources
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\obj\Debug\PD2.csproj.GenerateResource.cache
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\obj\Debug\PD2.csproj.CoreCompileInputs.cache
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\obj\Debug\PD2.exe
+C:\Users\Irek\Desktop\insertSort\PD2\PD2\obj\Debug\PD2.pdb
