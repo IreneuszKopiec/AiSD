@@ -1,0 +1,137 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace PD2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BinarySearchTree bst = new BinarySearchTree();
+
+            bst.Add(5);
+            bst.Add(3);
+            bst.Add(7);
+            bst.Add(2);
+            bst.Add(4);
+            bst.Add(6);
+            bst.Add(8);
+
+            
+        }
+    }
+
+    class Node
+    {
+        public int key;
+        public Node left, right;
+
+        public Node(int value)
+        {
+            key = value;
+            left = right = null;
+        }
+    }
+
+    class BinarySearchTree
+    {
+        public Node root=null;
+
+
+        public void Add(int key)
+        {
+            root = Add2(root, key);
+        }
+
+        private Node Add2(Node node, int key)
+        {
+            if (node == null)
+            {
+                return new Node(key);
+            }
+
+            if (key < node.key)
+            {
+                node.left = Add2(node.left, key);
+            }
+            else if (key > node.key)
+            {
+                node.right = Add2(node.right, key);
+            }
+
+            return node;
+        }
+
+        
+    }
+
+
+
+
+}
+
+
+
+class Graph
+{
+    private int V; 
+    private List<int>[] adj; 
+
+    public Graph(int v)
+    {
+        V = v;
+        adj = new List<int>[v];
+        for (int i = 0; i < v; ++i)
+        {
+            adj[i] = new List<int>();
+        }
+    }
+
+    public void AddEdge(int v, int w)
+    {
+        adj[v].Add(w);
+    }
+
+    public void BFS(int start)
+    {
+        bool[] visited = new bool[V];
+        List<int> currentLevel = new List<int>();
+        List<int> nextLevel = new List<int>();
+
+        visited[start] = true;
+        currentLevel.Add(start);
+
+        while (currentLevel.Count != 0)
+        {
+            foreach (int vertex in currentLevel)
+            {
+                Console.Write(vertex + " ");
+
+                foreach (int neighbor in adj[vertex])
+                {
+                    if (!visited[neighbor])
+                    {
+                        visited[neighbor] = true;
+                        nextLevel.Add(neighbor);
+                    }
+                }
+            }
+
+            currentLevel.Clear();
+            currentLevel.AddRange(nextLevel);
+            nextLevel.Clear();
+        }
+    }
+}
