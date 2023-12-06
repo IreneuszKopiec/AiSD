@@ -1,0 +1,10 @@
+C:\Users\Irek\Desktop\zadania\zadania\obj\Debug\zadania.csproj.AssemblyReference.cache
+C:\Users\Irek\Desktop\zadania\zadania\obj\Debug\zadania.Form1.resources
+C:\Users\Irek\Desktop\zadania\zadania\obj\Debug\zadania.Properties.Resources.resources
+C:\Users\Irek\Desktop\zadania\zadania\obj\Debug\zadania.csproj.GenerateResource.cache
+C:\Users\Irek\Desktop\zadania\zadania\obj\Debug\zadania.csproj.CoreCompileInputs.cache
+C:\Users\Irek\Desktop\zadania\zadania\bin\Debug\zadania.exe.config
+C:\Users\Irek\Desktop\zadania\zadania\bin\Debug\zadania.exe
+C:\Users\Irek\Desktop\zadania\zadania\bin\Debug\zadania.pdb
+C:\Users\Irek\Desktop\zadania\zadania\obj\Debug\zadania.exe
+C:\Users\Irek\Desktop\zadania\zadania\obj\Debug\zadania.pdb
