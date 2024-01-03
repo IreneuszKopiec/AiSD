@@ -316,61 +316,7 @@ namespace ISIgr1_5
         //3 Gdy jest 2 dzieci 
 
 
-        public Wêzel3 Usun(int liczba)
-        {
-            Wêzel3 wezel = Znajdź(liczba);
-
-            if (wezel != null)
-            {
-                if (wezel.lewe == null && wezel.prawe == null)
-                {
-                    if (wezel.rodzic != null)
-                    {
-                        if (wezel.rodzic.lewe == wezel)
-                        {
-                            wezel.rodzic.lewe = null;
-                        }
-                        else
-                        {
-                            wezel.rodzic.prawe = null;
-                        }
-                        wezel.rodzic = null;
-                    }
-                }
-                else if (wezel.lewe == null || wezel.prawe == null)
-                {
-
-                    Wêzel3 dziecko = (wezel.lewe != null) ? wezel.lewe : wezel.prawe;
-
-                    if (wezel.rodzic != null)
-                    {
-                        if (wezel.rodzic.lewe == wezel)
-                        {
-                            wezel.rodzic.lewe = dziecko;
-                        }
-                        else
-                        {
-                            wezel.rodzic.prawe = dziecko;
-                        }
-                        dziecko.rodzic = wezel.rodzic;
-                        wezel.rodzic = null;
-                    }
-                    else
-                    {
-                        this.korzeñ = dziecko;
-                        dziecko.rodzic = null;
-                    }
-                }
-                else
-                {
-                    Wêzel3 nastepnik = Min(wezel.prawe);
-                    wezel.wartosc = nastepnik.wartosc;
-                    Usun(nastepnik.wartosc);
-                }
-            }
-
-            return wezel;
-        }
+        
 
         //L           T
         //4:6:1     4-6:1
